@@ -8,10 +8,25 @@
  ============================================================================
  */
 
+
+typedef struct {
+	int idCliente;
+	char nombre[60];
+	char apellido[60];
+	char localidad[60];
+	int telefono;
+	int edad;
+	char sexo;
+	int estado;
+
+} eClientes;
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	puts("!AVER LOS CAMBIOS"); /* prints !!!Hello World!!! */
+
 	return EXIT_SUCCESS;
 }
